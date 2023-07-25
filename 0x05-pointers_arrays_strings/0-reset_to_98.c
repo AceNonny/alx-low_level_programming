@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - uses a pointer to an int and updates the int
- * the value it points to is 98
+ * reset_to_98 - it takes a pointer to an int and also updates
+ * it points to the value 98
  *
- * @n: An integer which inputs pointer
+ * @n: An integer input pointer
  *
- * Return: Void
+ * Return : nothing
 */
-
 void reset_to_98(int *n)
+
 {
 	*n = 98;
 }
