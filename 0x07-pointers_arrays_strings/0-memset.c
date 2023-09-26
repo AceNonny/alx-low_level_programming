@@ -1,19 +1,20 @@
 #include <stdio.h>
+#include "holberton.h"
 /**
- *  * _memcpy - fills memory with another buffer.
- *   * @s: the source string
- *    * @b: the string for filling
- *     * @n: the lenght of buffer
- *      * Return: new string.
+ * _memset - fills memory with a constant byte.
+ * @s: source string
+ * @b: the contant byte for filling
+ * @n: lenght of buffer
+ * Return: new string.
  */
-char *_memcpy(char *s, char *b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int a = 0;
+	unsigned int i = 0;
 
-	while (a < n)
+	while (i < n)
 	{
-		*(s + a) = *(b + a);
-		a++;
+		*(s + i) = b;
+		i++;
 	}
-	return (dest);
+	return (s);
 }
